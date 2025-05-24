@@ -24,6 +24,7 @@ const createItem = (req, res) => {
 
   console.log("Final defense")
 
+  console.log("teste")
   // In a real app, you'd save to a database
   const newItem = {
     id: Date.now(),
