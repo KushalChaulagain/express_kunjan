@@ -20,6 +20,7 @@ const createItem = (req, res) => {
     return res.status(400).json({ error: 'Name is required' });
   }
   
+// oi
 
   console.log("Final defense")
 
