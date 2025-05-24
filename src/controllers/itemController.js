@@ -20,6 +20,9 @@ const createItem = (req, res) => {
     return res.status(400).json({ error: 'Name is required' });
   }
   
+
+  console.log("Final defense")
+
   // In a real app, you'd save to a database
   const newItem = {
     id: Date.now(),
