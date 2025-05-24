@@ -12,18 +12,6 @@ const getItems = (req, res) => {
   res.json(items);
 };
 
-const getItemById = (req, res) => {
-  const id = parseInt(req.params.id);
-  
-  // In a real app, you'd fetch from a database
-  const item = {
-    id,
-    name: `Item ${id}`,
-    description: `Description for item ${id}`
-  };
-  
-  res.json(item);
-};
 
 const createItem = (req, res) => {
   const { name, description } = req.body;
